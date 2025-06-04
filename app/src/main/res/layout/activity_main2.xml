@@ -10,16 +10,36 @@
     android:background="@drawable/background1"
     tools:context=".MainActivity2">
 
-    <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/TestScreentextView4"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="date"
-        android:textColor="@color/white"/>
+        android:text="Test:"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:padding="24dp"
+        android:textStyle="bold|normal"
+        android:textColor="#89CFF0"
+        android:shadowColor="#89CFF0"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"/>
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/DateTextView"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the date"
+        android:inputType="date"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/minutesTextNumber"
+        android:hint="The minutes played"
+        android:textColorHint="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,13 +47,49 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="225dp"
+        android:layout_height="18dp" />
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="358dp"
+        android:layout_height="250dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
 
     <Button
         android:id="@+id/AddEntrybtn"

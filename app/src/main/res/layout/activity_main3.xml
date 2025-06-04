@@ -20,7 +20,7 @@
         android:layout_marginBottom="30dp"
         android:padding="24dp"
         android:textStyle="bold|normal"
-        android:textColor="#0000FF"
+        android:textColor="#89CFF0"
         android:shadowColor="#89CFF0"
         android:shadowDx="0"
         android:shadowDy="0"
